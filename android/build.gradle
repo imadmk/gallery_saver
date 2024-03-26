@@ -40,6 +40,10 @@ android {
     }
 
     if (project.android.hasProperty("namespace")) { namespace 'carnegietechnologies.gallery_saver' }
+
+    kotlinOptions {
+         jvmTarget = '17'
+    }
 }
 
 dependencies {
